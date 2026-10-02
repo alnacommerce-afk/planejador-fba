@@ -41,3 +41,4 @@ Todas as condições juntas:
   - **A**: item que começa antes de 80% do acumulado. **B**: começa antes de 95%. **C**: o restante e quem vendeu 0.
   - Empate em unidades: desempata pelas unidades de 60 dias da curva da assessoria.
 - Base usada: unidades (como a assessoria faz), não R$, porque o campo "Vendas" em R$ do Seller Central não bate com unidades x preço.
+- Formatação da planilha (definida pelo usuário): linha 2 com filtro em todas as colunas (A2:O2) e cabeçalhos centralizados. Preservar ao atualizar (editar o arquivo existente, nunca recriar).
