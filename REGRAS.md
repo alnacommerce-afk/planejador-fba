@@ -34,3 +34,10 @@ Todas as condições juntas:
 - A cópia em `G:\Meu Drive\DRIVE - COMPUTADOR\PLANEJADOR DE FBA.xlsx` deve ser **sempre sobrescrita** com a principal a cada atualização.
 - Se o Excel estiver com o arquivo aberto (existe `~$PLANEJADOR DE FBA.xlsx`), pedir para fechar antes de salvar.
 - A cada atualização: salvar a planilha, sobrescrever a cópia do Drive, fazer commit e **push** para o GitHub (sempre).
+
+## Curva ABC análise do Claude (coluna O) e Curva da Assessoria (coluna N)
+- Cabeçalhos em linha 2: L=ASIN, M=sku, N=Curva da Assessoria, O=Curva ABC análise do Claude. Dados a partir da linha 3.
+- Critério da coluna O: unidades vendidas nos últimos 30 dias (coluna I) dos SKUs `_FBA`, em ordem decrescente, com percentual acumulado.
+  - **A**: item que começa antes de 80% do acumulado. **B**: começa antes de 95%. **C**: o restante e quem vendeu 0.
+  - Empate em unidades: desempata pelas unidades de 60 dias da curva da assessoria.
+- Base usada: unidades (como a assessoria faz), não R$, porque o campo "Vendas" em R$ do Seller Central não bate com unidades x preço.
