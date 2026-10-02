@@ -42,3 +42,8 @@ Todas as condições juntas:
   - Empate em unidades: desempata pelas unidades de 60 dias da curva da assessoria.
 - Base usada: unidades (como a assessoria faz), não R$, porque o campo "Vendas" em R$ do Seller Central não bate com unidades x preço.
 - Formatação da planilha (definida pelo usuário): linha 2 com filtro em todas as colunas (A2:O2) e cabeçalhos centralizados. Preservar ao atualizar (editar o arquivo existente, nunca recriar).
+
+## Fluxo de envio de arquivos
+- Quando o usuário avisar "vou enviar arquivos novos": criar `arquivos enviados/envioN_AAAA-MM-DD_HH-MM` (N = próximo número) e mandar o caminho completo no chat para ele soltar os arquivos lá.
+- Ele avisa "enviei"; aí examinar os arquivos com zoom, confirmar a legibilidade e só então extrair.
+- Arquivos anexados no chat chegam reduzidos (imagens são recomprimidas): usar sempre os arquivos colocados direto na pasta.
