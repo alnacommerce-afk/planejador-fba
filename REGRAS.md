@@ -33,3 +33,4 @@ Todas as condições juntas:
 - Versão principal: `arquivos enviados/PLANEJADOR DE FBA.xlsx` (neste repositório).
 - A cópia em `G:\Meu Drive\DRIVE - COMPUTADOR\PLANEJADOR DE FBA.xlsx` deve ser **sempre sobrescrita** com a principal a cada atualização.
 - Se o Excel estiver com o arquivo aberto (existe `~$PLANEJADOR DE FBA.xlsx`), pedir para fechar antes de salvar.
+- A cada atualização: salvar a planilha, sobrescrever a cópia do Drive, fazer commit e **push** para o GitHub (sempre).
