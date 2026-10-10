@@ -56,3 +56,6 @@ Todas as condições juntas:
 - Quando o usuário avisar "vou enviar arquivos novos": criar `arquivos enviados/envioN_AAAA-MM-DD_HH-MM` (N = próximo número) e mandar o caminho completo no chat para ele soltar os arquivos lá.
 - Ele avisa "enviei"; aí examinar os arquivos com zoom, confirmar a legibilidade e só então extrair.
 - Arquivos anexados no chat chegam reduzidos (imagens são recomprimidas): usar sempre os arquivos colocados direto na pasta.
+
+## Em acompanhamento
+- **ROL_MAS_P_FBA (ASIN B0GW16ZJ3Y)**: em 10/10/2026 vendeu 15 unidades em 30 dias com 7 disponíveis (+3 reservadas). Não passa na regra (disponível não é menor que 5), mas pode zerar em cerca de 2 semanas. **A cada novo envio, destacar este produto no resumo**: disponível, vendas 30d e se já passou na regra.
