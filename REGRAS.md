@@ -17,6 +17,15 @@ Planilha: `PLANEJADOR DE FBA.xlsx` (aba Planilha1). Os 3 arquivos de entrada fic
 - A curva ABC vem por SKU, então o SKU (coluna M) é a ponte até o ASIN.
 - **Lembrete mensal:** no início de cada mês, cobrar do usuário a curva ABC do mês anterior.
 
+## Onde pegar cada arquivo
+| Arquivo | Link |
+|---|---|
+| Inventário do programa FBA | https://sellercentral.amazon.com.br/inventoryplanning/manageinventoryhealth |
+| Gerenciar todo o inventário | https://sellercentral.amazon.com.br/myinventory/inventory |
+| Curva ABC da assessoria (Google Doc) | https://docs.google.com/document/d/1rFB4plHyGYvT9tIyT77H8o1_DfYAV07a-PcOUdUrzj4/edit?tab=t.0 |
+
+- Ao criar a pasta de cada envio, **sempre mandar estes 3 links junto com o caminho da pasta**.
+
 ## Regra de reposição (enviar o ASIN ao FBA)
 Todas as condições juntas:
 1. Estoque antigo zerado: colunas **C a G** (61+ dias) com 0. A coluna B (0-60) NÃO conta como antigo.
