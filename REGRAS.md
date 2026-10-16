@@ -59,3 +59,10 @@ Todas as condições juntas:
 
 ## Em acompanhamento
 - **ROL_MAS_P_FBA (ASIN B0GW16ZJ3Y)**: em 10/10/2026 vendeu 15 unidades em 30 dias com 7 disponíveis (+3 reservadas). Não passa na regra (disponível não é menor que 5), mas pode zerar em cerca de 2 semanas. **A cada novo envio, destacar este produto no resumo**: disponível, vendas 30d e se já passou na regra.
+
+## Vendas entre uma leitura e outra (pedido do usuário)
+- **Em toda nova análise, trazer quantas unidades saíram entre a leitura anterior e a atual**, por produto (ASIN + SKU) e o total.
+- Cálculo: `saiu = disponível anterior + chegou - disponível atual`. "Chegou" = o que estava a caminho (preparação, enviado, recebimento) e entrou no disponível.
+- É estimativa: o relatório não mostra a venda por período, só o disponível e as vendas dos últimos 30 dias (janela móvel). Aumento de disponível sem envio a caminho conhecido = reposição que não foi registrada, não conta como venda negativa.
+- Histórico salvo em `extraido/historico_vendas_entre_leituras.csv` (acrescentar linhas a cada leitura).
+- Leituras: envio1 = 02/10/2026, envio2 = 10/10/2026, envio3 = 16/10/2026.
