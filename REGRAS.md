@@ -66,3 +66,4 @@ Todas as condições juntas:
 - É estimativa: o relatório não mostra a venda por período, só o disponível e as vendas dos últimos 30 dias (janela móvel). Aumento de disponível sem envio a caminho conhecido = reposição que não foi registrada, não conta como venda negativa.
 - Histórico salvo em `extraido/historico_vendas_entre_leituras.csv` (acrescentar linhas a cada leitura).
 - Leituras: envio1 = 02/10/2026, envio2 = 10/10/2026, envio3 = 16/10/2026.
+- **Formato fixo da resposta** (pedido do usuário): sempre uma tabela com as colunas **ASIN | SKU | Antes | Depois | Saiu | Vendas 30d**.
